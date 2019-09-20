@@ -1,4 +1,4 @@
-# Java
+# Go
 
 ## How to setup
 
