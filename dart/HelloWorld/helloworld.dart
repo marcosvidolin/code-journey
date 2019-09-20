@@ -1,3 +1,7 @@
+import 'dart:io';
+
 void main() {
-    print('Hello, world');
+  print('Hello, world');
+  var line = stdin.readLineSync();
+  print(line);
 }
