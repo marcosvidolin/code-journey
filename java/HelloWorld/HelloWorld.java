@@ -1,5 +1,23 @@
-public class HelloWorld {
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
     public static void main(String[] args) {
-        System.out.println("Hello, world");
+        Scanner scan = new Scanner(System.in);
+
+        // Read a full line of input from stdin and save it to our variable,
+        // inputString.
+        String inputString = scan.nextLine();
+
+        // Close the scanner object, because we've finished reading
+        // all of the input from stdin needed for this challenge.
+        scan.close();
+
+        System.out.println("Hello, World.");
+
+        System.out.println(inputString);
     }
 }
