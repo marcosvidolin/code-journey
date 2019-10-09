@@ -6,4 +6,3 @@ Just some codes to practice and learn program languages and technologies.
 - [Go](go)
 - [Java](java)
 - [Python](python)
-- [Scala](scala)
